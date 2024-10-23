@@ -7,6 +7,7 @@ const inter = Inter({ subsets: ["latin"] })
 export const metadata: Metadata = {
   title: "Feijao Barber",
   description: "Agende agora mesmo o seu horário",
+  // themeColor: "#FF0000",
 }
 
 export default function RootLayout({

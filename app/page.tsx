@@ -35,6 +35,44 @@ const Home = async () => {
           </Button>
         </div>
 
+        {/* BUSCA RÁPIDA */}
+        <div className="mt-6 flex gap-3 overflow-x-scroll [&::-webkit-scrollbar]:hidden">
+          <Button className="flex gap-2" variant={"secondary"}>
+            <Image src="/cabelo.svg" width={16} height={16} alt="Cabelo" />
+            Cabelo
+          </Button>
+
+          <Button className="flex gap-2" variant={"secondary"}>
+            <Image src="/barba.svg" width={16} height={16} alt="Barba" />
+            Barba
+          </Button>
+
+          <Button className="flex gap-2" variant={"secondary"}>
+            <Image
+              src="/acabamento.svg"
+              width={16}
+              height={16}
+              alt="Acabamento"
+            />
+            Acabamento
+          </Button>
+
+          <Button className="flex gap-2" variant={"secondary"}>
+            <Image
+              src="/sobrancelha.svg"
+              width={16}
+              height={16}
+              alt="Sobrancelha"
+            />
+            Sobrancelha
+          </Button>
+
+          <Button className="flex gap-2" variant={"secondary"}>
+            <Image src="/acabamento.svg" width={16} height={16} alt="Pezinho" />
+            Pezinho
+          </Button>
+        </div>
+
         {/* IMAGEM */}
         <div className="relative mt-6 h-[150px] w-full">
           <Image
@@ -92,7 +130,7 @@ const Home = async () => {
       </div>
 
       <footer>
-        <Card>
+        <Card className="">
           <CardContent className="px-5 py-6">
             <p className="text-sm text-gray-400">
               ©️ 2024 Copyright <span className="font-bold">Feijão Barber</span>
